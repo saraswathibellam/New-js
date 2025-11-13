@@ -6,6 +6,7 @@
 let value = 10;
 console.log(value);
 console.log(typeof value);
+
 let value1 = "saru";
 console.log(typeof value1);
 
