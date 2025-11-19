@@ -1,4 +1,5 @@
 //Assignments
+console.log("----- Assignments Operators-----");
 let x = 10;
 x += 10;
 console.log(x);
@@ -19,6 +20,7 @@ y **= 3;
 console.log(y);
 
 //Comparision
+console.log("----- Comparison Operators -----");
 console.log(10 == 10);
 console.log(10 == "10"); //not consider data type
 

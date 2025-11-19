@@ -3,6 +3,7 @@
 
 //Non primitive - Object Symbol
 //let value;
+console.log("-----Data Types in JavaScript-----");
 let value = 10;
 console.log(value);
 console.log(typeof value);

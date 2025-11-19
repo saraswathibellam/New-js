@@ -1,5 +1,6 @@
 //Conditions
 //if condition
+console.log("----- If condition -----");
 function marks(value) {
   if (value >= 10) {
     console.log("If statement is true");
@@ -8,6 +9,7 @@ function marks(value) {
 marks(10);
 
 //if-else condition
+console.log("----- If-Else condition -----");
 function isEligible(value) {
   if (value >= 18) {
     console.log("Eligible to drive 4 wheeler");
@@ -28,11 +30,11 @@ console.log("I will get a package of 7LPA");
 console.log("I will get a package of 5LPA");
 
  */
-
-/* function pack(type) {
+console.log("----- If-ElseIf-Else condition -----");
+function pack(type) {
   if (type == "Tier 1") {
     console.log("I will get a package of 10LPA");
-  } else if (type == "Tier 3") {
+  } else if (type == "Tier 2") {
     console.log("I will get a package of 7LPA");
   } else if (type == "Tier 3") {
     console.log("I will get a package of 5LPA");
@@ -40,12 +42,13 @@ console.log("I will get a package of 5LPA");
     console.log("No Job");
   }
 }
-tier("Tier 4"); */
+pack("Tier 2");
 
 //switch case condition
+console.log("----- Switch Case condition -----");
 let type = "Tier 1";
 switch (type) {
-  case "Tier 1":
+  case "Tier ":
     console.log("I will get a package of 10LPA");
     break;
   case "Tier 2":
