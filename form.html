@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>My Page</title>
+    <script>
+      //onchange ,onblur,onmouseover,onmouseout are commonly used
+
+      function abc() {
+        console.log("I am in the change method");
+      }
+
+      function mnc() {
+        console.log("I am in blur method");
+      }
+      function efg() {
+        console.log("I am in executing mouse over");
+      }
+      function xyz() {
+        console.log("I am moving out fron button");
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <input
+        type="text"
+        name="fname"
+        onchange="abc()"
+        onblur="mnc()"
+        value=""
+      />
+      <button onmouseover="efg()" onmouseout="xyz()">Submit</button>
+    </form>
+  </body>
+</html>
